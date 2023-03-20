@@ -28,12 +28,20 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "https://github.com/ozcanzaferayan/landing-miniapp.git#0.0.2"
+                ],
+                "nativeDeps": [
+                  "react-native@0.67.5"
+                ],
+                "ernVersion": "1000.0.0"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "0947164d-0d43-4cac-a88e-6d2dcb32d6d6"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }
